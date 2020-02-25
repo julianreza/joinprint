@@ -13,7 +13,7 @@ class MyApp extends App {
             window.location.href = "/"
         }
         else {
-            window.location.href = "/dashbiard"
+            window.location.href = "/dashboard"
         }
     }
 
