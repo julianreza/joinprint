@@ -7,16 +7,6 @@ import App from "next/app"
 
 class MyApp extends App {
 
-    componentDidMount() {
-        const email = localStorage.getItem("email")
-        if (email === undefined) {
-            window.location.href = "/"
-        }
-        else {
-            window.location.href = "/dashboard"
-        }
-    }
-
     render() {
         const { Component, pageProps } = this.props
         return (

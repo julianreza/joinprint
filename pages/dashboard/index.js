@@ -68,7 +68,7 @@ const Dashboard = () => {
                     <Col xs="10" sm='6'>
                         <Card>
                             <CardBody>
-                                <CardTitle style={{ fontWeight: 'bold' }}>Answer Number 2</CardTitle>
+                                <CardTitle style={{ fontWeight: 'bold' }}>Answer Number 1</CardTitle>
                                 <hr />
                                 <ul>
                                     <li>
